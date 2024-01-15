@@ -239,14 +239,42 @@ hr{
 /* medium devise */
 @media screen and (min-width:576px) and (max-width:992px) {
     .header-img-content{
+        margin-top: 300px;
         flex-direction: column-reverse;
         gap: 0;
-
     }
     .header-info{
         margin-top: -180px;
+        text-align: center;
+    }
+    .btn{
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    hr{
+        width: 100%;
     }
     .card-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap:10px;
+        width: 80%;
+        
+    }
+    .card{
+        margin: auto;
+    }
+    .featured-container{
+        flex-direction: column;
+    }
+    .featured-info{
+        text-align: center;
+        max-width: 700px;
+    }
+    .featured-img{
+        width: 60%;
+    }
+    .featured-img img{
         width: 100%;
     }
 }
